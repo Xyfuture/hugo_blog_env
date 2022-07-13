@@ -1,9 +1,11 @@
 name: DeployGitHubPages
 
 on:
-  push:
-    branches:
-      - main  # Set a branch to deploy
+  repository_dispatch:
+    types: [blog_update]
+#  push:
+#    branches:
+#      - main  # Set a branch to deploy
 
 jobs:
   deploy:
