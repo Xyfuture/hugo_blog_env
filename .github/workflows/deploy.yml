@@ -3,7 +3,7 @@ name: DeployGitHubPages
 on:
   push:
     branches:
-      - master  # Set a branch to deploy
+      - main  # Set a branch to deploy
 
 jobs:
   deploy:
@@ -29,5 +29,5 @@ jobs:
         with:
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           external_repository: xyfuture/xyfuture.github.io
-          publish_branch: master
+          publish_branch: main
           publish_dir: ./public
