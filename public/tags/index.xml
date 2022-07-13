@@ -1,10 +1,8 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>Tags on Xyfuture的博客</title>
-        <link>https://xyfuture.github.io/tags/</link>
-        <description>Recent content in Tags on Xyfuture的博客</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language><atom:link href="https://xyfuture.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+        <title>Tags - Tag - Xyfuture&#39;s Blog</title>
+        <link>http://xyfuture.github.io/tags/</link>
+        <description>Tags - Tag - Xyfuture&#39;s Blog</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>xyfuture@foxmail.com (xyfuture)</managingEditor>
+            <webMaster>xyfuture@foxmail.com (xyfuture)</webMaster><atom:link href="http://xyfuture.github.io/tags/" rel="self" type="application/rss+xml" /></channel>
 </rss>
