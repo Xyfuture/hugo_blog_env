@@ -38,3 +38,7 @@ jobs:
           external_repository: xyfuture/xyfuture.github.io
           publish_branch: main
           publish_dir: ./public
+
+      - uses: stefanzweifel/git-auto-commit-action@v4
+
+      
