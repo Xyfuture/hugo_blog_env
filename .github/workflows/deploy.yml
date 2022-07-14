@@ -19,7 +19,7 @@ jobs:
       - name: Pull Content
         run: |
           cd ./content
-          git pull
+          git pull origin main
       
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
